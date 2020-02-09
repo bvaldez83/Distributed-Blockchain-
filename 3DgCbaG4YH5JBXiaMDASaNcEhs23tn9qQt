@@ -1,7 +1,12 @@
 defmodule Blockchain do
   defstruct blockchain: nil, difficulty: 2, pending: [], reward: 100
 
-  # initialize a new chain with only genesis block
+ 
+
+
+
+
+ # initialize a new chain with only genesis block
   def createchain do
     %Blockchain{
       blockchain: [Block.genblock()],
